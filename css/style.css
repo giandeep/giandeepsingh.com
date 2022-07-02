@@ -1,0 +1,53 @@
+.portfolio-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 90vh;
+    text-align: center;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+.header {
+    width: 200px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.portfolio-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0px auto !important;
+    background-image: url('../img/GiandeepSingh.jpeg');   
+    background-size: 190px;
+    background-position: 0px -14px;
+}
+.welcome {
+    margin-top: 50px;
+}
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.links {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 10vh;
+    margin-left: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+.links:hover {
+    border: 2px solid red;
+    color: red;
+}
+.footer {
+    box-sizing: border-box;
+    height: 10vh;
+    border-top: 2px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
