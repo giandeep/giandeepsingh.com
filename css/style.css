@@ -135,6 +135,7 @@ height: auto;
         background-image: url('../img/GiandeepSingh.jpeg');   
         background-size: 175px;
         background-position: center -14px;
+        filter: brightness(1.19);
     }
     .welcome {
         margin-top: 5vh;
